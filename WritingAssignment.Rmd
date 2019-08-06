@@ -1,0 +1,44 @@
+---
+title: "Writing Assignment"
+author: "Your Name"
+bibliography: [packages.bib, ISLR.bib]
+output: 
+    bookdown::html_document2
+date: 'Last compiled: `r format(Sys.time(), "%b %d, %Y")`'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA)
+```
+
+## Directions{-} 
+Recreate [this](./WritingAssignment-Solution.html) document exactly using [R Markdown](http://rmarkdown.rstudio.com/).  A great reference for creating technical documents with R Markdown is [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown/).  Your YAML should look similar to:
+
+```{eval = FALSE}
+---
+title: "Writing Assignment"
+author: "Leave This Blank"
+bibliography: [packages.bib, ISLR.bib]
+output: 
+    bookdown::html_document2
+date: 'Last compiled: `r format(Sys.time(), "%b %d, %Y")`'
+---
+```
+
+
+# From page 62 of [ISLR](http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf) [@james_introduction_2013] 
+Let $\hat{y}_i = \hat{\beta}_0 + \hat{\beta}_1x_i$ be the prediction for $Y$ based on the $i^{\text{th}}$ value of $X$.  Then $e_i = y_i - \hat{y}_i$ represents the $i^{\text{th}}$ _residual_---this is the difference between the $i^{\text{th}}$ observed response and the $i^{\text{th}}$ response value that is predicted by our linear model.  We define the _residual sum of squares_ (RSS) as
+
+\begin{equation*}
+\mathrm{RSS} = e_1^2 + e_2^2 + \cdots + e_n^2.
+\end{equation*}
+
+or equivalently as
+
+\begin{equation}
+\mathrm{RSS} = (y_1 - \hat{\beta}_0 - \hat{\beta}_1x_1 )^2 + (y_2 - \hat{\beta}_0 - \hat{\beta}_1x_2 )^2 + \cdots + (y_n - \hat{\beta}_0 - \hat{\beta}_1x_n )^2
+(\#eq:rss)
+\end{equation}
+
+
+## References
