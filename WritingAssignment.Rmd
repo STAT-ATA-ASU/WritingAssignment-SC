@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE, comment = NA)
 ```
 
 ## Directions{-} 
-Recreate [this](./WritingAssignment-Solution.html) document exactly using [R Markdown](http://rmarkdown.rstudio.com/).  A great reference for creating technical documents with R Markdown is [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown/).  Your YAML should look similar to:
+Recreate this document exactly using [R Markdown](http://rmarkdown.rstudio.com/).  A great reference for creating technical documents with R Markdown is [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown/).  Your YAML should look similar to:
 
 ```{eval = FALSE}
 ---
