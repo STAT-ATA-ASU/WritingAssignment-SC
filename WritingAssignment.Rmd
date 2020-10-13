@@ -1,7 +1,7 @@
 ---
 title: "Writing Assignment"
 author: "Your Name"
-bibliography: [packages.bib, ISLR.bib]
+bibliography: [ISLR.bib]
 output: 
     bookdown::html_document2
 date: 'Last compiled: `r format(Sys.time(), "%b %d, %Y")`'
@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE, comment = NA)
 ```
 
 ## Directions{-} 
-Recreate this document exactly using [R Markdown](http://rmarkdown.rstudio.com/).  A great reference for creating technical documents with R Markdown is [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown/).  Your YAML should look similar to:
+Recreate [this](WritingAssignment-Solution.html) document exactly using [R Markdown](http://rmarkdown.rstudio.com/).  A great reference for creating technical documents with R Markdown is [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown/).  Your YAML should look similar to:
 
 ```{eval = FALSE}
 ---
